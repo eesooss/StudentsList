@@ -16,7 +16,7 @@ public class Application {
 
         String studentsList = list.getStudentsList();
 
-        list.getAveragePoint();
+        list.getAverageScore();
 
         System.out.println(misha.getName() + "'s index in list is: " + list.searchStudent(misha));
 

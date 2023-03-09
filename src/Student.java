@@ -2,13 +2,13 @@ public class Student {
     private String name;
     private String lastName;
     private int age;
-    private int gpa;
+    private int score;
 
-    public Student(String name, String lastName, int age, int gpa) {
+    public Student(String name, String lastName, int age, int score) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
-        this.gpa = gpa;
+        this.score = score;
     }
 
     public String getName() {
@@ -35,11 +35,11 @@ public class Student {
         this.age = age;
     }
 
-    public int getGpa() {
-        return gpa;
+    public int getScore() {
+        return score;
     }
 
-    public void setGpa(int gpa) {
-        this.gpa = gpa;
+    public void setScore(int gpa) {
+        this.score = score;
     }
 }

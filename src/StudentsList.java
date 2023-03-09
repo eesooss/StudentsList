@@ -4,10 +4,10 @@ public class StudentsList {
 
     private final ArrayList<Student> students = new ArrayList<>();
 
-    public void getAveragePoint() {
+    public void getAverageScore() {
 
         for (Student student : students) {
-            System.out.println(student.getName() + " GPA is: " + student.getGpa());
+            System.out.println(student.getName() + " GPA is: " + student.getScore());
         }
     }
 

@@ -6,7 +6,7 @@ We welcome any feedback and suggestions on this project, so please feel free to 
 
 ## Features
 
-You can use "Student" and "StudentsList" class objects to add, remove, search for students and get the average score of all students in the list.
+You can use "Student" and "StudentsList" class objects to `add`, `remove`, `search` for students and get the average score of all students in the list.
 
 ## Technologies Used
 

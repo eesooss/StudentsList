@@ -11,15 +11,15 @@ public class StudentsList {
         }
     }
 
-    public void addStudent(Student student) {
+    public void add(Student student) {
         students.add(student);
     }
 
-    public void removeStudent(Student student) {
+    public void remove(Student student) {
         students.remove(student);
     }
 
-    public int searchStudent(Student student) {
+    public int searchIndexOf(Student student) {
         return students.indexOf(student);
     }
 
